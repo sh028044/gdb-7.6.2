@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bfd">
+        <in>archive.c</in>
+        <in>archive64.c</in>
+        <in>archures.c</in>
+        <in>bfd.c</in>
+        <in>bfdio.c</in>
+        <in>binary.c</in>
+        <in>cache.c</in>
+        <in>coffgen.c</in>
+        <in>compress.c</in>
+        <in>corefile.c</in>
+        <in>cpu-i386.c</in>
+        <in>cpu-powerpc.c</in>
+        <in>cpu-rs6000.c</in>
+        <in>dwarf2.c</in>
+        <in>format.c</in>
+        <in>hash.c</in>
+        <in>ihex.c</in>
+        <in>init.c</in>
+        <in>libbfd.c</in>
+        <in>linker.c</in>
+        <in>mach-o-i386.c</in>
+        <in>mach-o-x86-64.c</in>
+        <in>mach-o.c</in>
+        <in>merge.c</in>
+        <in>opncls.c</in>
+        <in>pef.c</in>
+        <in>reloc.c</in>
+        <in>section.c</in>
+        <in>simple.c</in>
+        <in>srec.c</in>
+        <in>stab-syms.c</in>
+        <in>stabs.c</in>
+        <in>syms.c</in>
+        <in>targets.c</in>
+        <in>tekhex.c</in>
+        <in>verilog.c</in>
+        <in>xsym.c</in>
+      </df>
+      <df name="intl">
+        <in>bindtextdom.c</in>
+        <in>dcgettext.c</in>
+        <in>dcigettext.c</in>
+        <in>dcngettext.c</in>
+        <in>dgettext.c</in>
+        <in>dngettext.c</in>
+        <in>explodename.c</in>
+        <in>finddomain.c</in>
+        <in>gettext.c</in>
+        <in>intl-compat.c</in>
+        <in>l10nflist.c</in>
+        <in>loadmsgcat.c</in>
+        <in>localcharset.c</in>
+        <in>localealias.c</in>
+        <in>localename.c</in>
+        <in>log.c</in>
+        <in>ngettext.c</in>
+        <in>plural-exp.c</in>
+        <in>plural.c</in>
+        <in>relocatable.c</in>
+        <in>textdomain.c</in>
+      </df>
+      <df name="libdecnumber">
+        <df name="dpd">
+          <in>decimal128.c</in>
+          <in>decimal32.c</in>
+          <in>decimal64.c</in>
+        </df>
+        <in>decContext.c</in>
+        <in>decNumber.c</in>
+      </df>
+      <df name="libiberty">
+        <in>alloca.c</in>
+        <in>argv.c</in>
+        <in>choose-temp.c</in>
+        <in>concat.c</in>
+        <in>cp-demangle.c</in>
+        <in>cp-demint.c</in>
+        <in>cplus-dem.c</in>
+        <in>crc32.c</in>
+        <in>dwarfnames.c</in>
+        <in>dyn-string.c</in>
+        <in>fdmatch.c</in>
+        <in>fibheap.c</in>
+        <in>filename_cmp.c</in>
+        <in>floatformat.c</in>
+        <in>fnmatch.c</in>
+        <in>fopen_unlocked.c</in>
+        <in>getopt.c</in>
+        <in>getopt1.c</in>
+        <in>getpwd.c</in>
+        <in>getruntime.c</in>
+        <in>hashtab.c</in>
+        <in>hex.c</in>
+        <in>lbasename.c</in>
+        <in>lrealpath.c</in>
+        <in>make-relative-prefix.c</in>
+        <in>make-temp-file.c</in>
+        <in>md5.c</in>
+        <in>mempcpy.c</in>
+        <in>objalloc.c</in>
+        <in>obstack.c</in>
+        <in>partition.c</in>
+        <in>pex-common.c</in>
+        <in>pex-one.c</in>
+        <in>pex-unix.c</in>
+        <in>pexecute.c</in>
+        <in>physmem.c</in>
+        <in>regex.c</in>
+        <in>safe-ctype.c</in>
+        <in>setproctitle.c</in>
+        <in>sha1.c</in>
+        <in>simple-object-coff.c</in>
+        <in>simple-object-elf.c</in>
+        <in>simple-object-mach-o.c</in>
+        <in>simple-object-xcoff.c</in>
+        <in>simple-object.c</in>
+        <in>sort.c</in>
+        <in>spaces.c</in>
+        <in>splay-tree.c</in>
+        <in>stack-limit.c</in>
+        <in>strerror.c</in>
+        <in>strsignal.c</in>
+        <in>strverscmp.c</in>
+        <in>timeval-utils.c</in>
+        <in>unlink-if-ordinary.c</in>
+        <in>xatexit.c</in>
+        <in>xexit.c</in>
+        <in>xmalloc.c</in>
+        <in>xmemdup.c</in>
+        <in>xstrdup.c</in>
+        <in>xstrerror.c</in>
+        <in>xstrndup.c</in>
+      </df>
+      <df name="opcodes">
+        <in>dis-buf.c</in>
+        <in>dis-init.c</in>
+        <in>disassemble.c</in>
+        <in>i386-opc.c</in>
+        <in>ppc-dis.c</in>
+      </df>
+      <df name="readline">
+        <in>bind.c</in>
+        <in>callback.c</in>
+        <in>compat.c</in>
+        <in>complete.c</in>
+        <in>display.c</in>
+        <in>funmap.c</in>
+        <in>histexpand.c</in>
+        <in>histfile.c</in>
+        <in>history.c</in>
+        <in>histsearch.c</in>
+        <in>input.c</in>
+        <in>isearch.c</in>
+        <in>keymaps.c</in>
+        <in>kill.c</in>
+        <in>macro.c</in>
+        <in>mbutil.c</in>
+        <in>misc.c</in>
+        <in>nls.c</in>
+        <in>parens.c</in>
+        <in>readline.c</in>
+        <in>rltty.c</in>
+        <in>search.c</in>
+        <in>shell.c</in>
+        <in>signals.c</in>
+        <in>terminal.c</in>
+        <in>text.c</in>
+        <in>tilde.c</in>
+        <in>undo.c</in>
+        <in>util.c</in>
+        <in>vi_mode.c</in>
+        <in>xfree.c</in>
+        <in>xmalloc.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="bfd/archive.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/aout</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/archive64.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/aout</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/archures.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/bfd.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/coff</pElem>
+            <pElem>include/elf</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/bfdio.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/binary.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/cache.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/coffgen.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/coff</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/compress.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/corefile.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/cpu-i386.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/cpu-powerpc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/cpu-rs6000.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/dwarf2.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/elf</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/format.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/hash.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/ihex.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/init.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/libbfd.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/linker.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/mach-o-i386.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/mach-o</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/mach-o-x86-64.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/mach-o</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/mach-o.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/mach-o</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/merge.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/opncls.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/pef.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/reloc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/section.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/simple.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/srec.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/stab-syms.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/stabs.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include/aout</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/syms.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/aout</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/targets.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/tekhex.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/verilog.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="bfd/xsym.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="0/libdecnumber/dpd">
+        <cTool>
+          <incDir>
+            <pElem>libdecnumber/dpd</pElem>
+            <pElem>libdecnumber</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="0/readline">
+        <cTool>
+          <incDir>
+            <pElem>readline</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="intl/bindtextdom.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/dcgettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/dcigettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/dcngettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/dgettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/dngettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/explodename.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/finddomain.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/gettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/intl-compat.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/l10nflist.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/loadmsgcat.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/localcharset.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/localealias.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/localename.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/log.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/ngettext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/plural-exp.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/plural.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>/usr/local/share/bison</pElem>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/relocatable.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="intl/textdomain.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>intl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libdecnumber/decContext.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libdecnumber</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libdecnumber/decNumber.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libdecnumber</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libdecnumber/dpd/decimal128.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="libdecnumber/dpd/decimal32.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="libdecnumber/dpd/decimal64.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="libiberty/alloca.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/argv.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/choose-temp.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/concat.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/cp-demangle.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/cp-demint.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/cplus-dem.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/crc32.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/dwarfnames.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/dyn-string.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/fdmatch.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/fibheap.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/filename_cmp.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/floatformat.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/fnmatch.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/fopen_unlocked.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/getopt.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/getopt1.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/getpwd.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/getruntime.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/hashtab.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/hex.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/lbasename.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/lrealpath.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/make-relative-prefix.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/make-temp-file.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/md5.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/mempcpy.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/objalloc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/obstack.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/partition.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/pex-common.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/pex-one.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/pex-unix.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/pexecute.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/physmem.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/regex.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/safe-ctype.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/setproctitle.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/sha1.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/simple-object-coff.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/simple-object-elf.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/simple-object-mach-o.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/simple-object-xcoff.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/simple-object.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/sort.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/spaces.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/splay-tree.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/stack-limit.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/strerror.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/strsignal.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/strverscmp.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+            <pElem>include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/timeval-utils.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/unlink-if-ordinary.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xatexit.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xexit.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xmalloc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xmemdup.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xstrdup.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xstrerror.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="libiberty/xstrndup.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>libiberty</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="opcodes/dis-buf.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>opcodes</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="opcodes/dis-init.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>opcodes</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="opcodes/disassemble.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>opcodes</pElem>
+            <pElem>include</pElem>
+            <pElem>bfd</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="opcodes/i386-opc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>opcodes</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="opcodes/ppc-dis.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+          <incDir>
+            <pElem>include/opcode</pElem>
+            <pElem>bfd</pElem>
+            <pElem>include</pElem>
+            <pElem>include/elf</pElem>
+            <pElem>opcodes</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="readline/bind.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/callback.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/compat.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/complete.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/display.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/funmap.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/histexpand.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/histfile.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/history.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/histsearch.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/input.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/isearch.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/keymaps.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/kill.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/macro.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/mbutil.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/misc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/nls.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/parens.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/readline.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/rltty.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/search.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/shell.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/signals.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/terminal.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/text.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/tilde.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/undo.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/util.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/vi_mode.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/xfree.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+      <item path="readline/xmalloc.c" ex="false" tool="0" flavor2="3">
+        <cTool>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -1,0 +1,13 @@
+Configuring in ./intl
+configure: loading cache ./config.cache
+configure: error: `CC' has changed since the previous run:
+configure:   former value:  `gcc'
+configure:   current value: `/usr/bin/clang'
+configure: error: `CFLAGS' has changed since the previous run:
+configure:   former value:  `-g -O2'
+configure:   current value: `-g3 -gdwarf-2'
+configure: error: in `/Users/youhua/Downloads/gdb-7.6.2/intl':
+configure: error: changes in the environment can compromise the build
+configure: error: run `make distclean' and/or `rm ./config.cache' and start over
+make[1]: *** [configure-intl] Error 1
+make: *** [all] Error 2
